@@ -1,0 +1,407 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/* slider */
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+ /* logo aumi */
+  .logo{
+    width: 9%;
+  }
+ 
+
+/* galeria */
+
+ .galeria{
+  padding: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #ef98b9;
+  padding-bottom: 500px;
+ }
+
+ .item_1 {
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+  margin-top: 5em;
+}
+
+
+.item_2 {
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+  margin-top: 300px;
+}
+
+.item_3 {
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+  margin-top: 300px;
+}
+
+
+.item_4 {
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+  margin-top: 300px;
+}
+
+.item_5 {
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+  margin-top: 300px;
+}
+
+/* galeria_hover */
+.galeria .item_1:hover{
+  filter: drop-shadow(5px 5px 10px #e03b7b);
+  }
+
+ .galeria .item_2:hover{
+  filter: drop-shadow(5px 5px 10px #e03b7b);
+ }
+
+ .galeria .item_3:hover{
+  filter: drop-shadow(5px 5px 10px #e03b7b);
+ }
+
+ .galeria .item_4:hover{
+  filter: drop-shadow(5px 5px 10px #e03b7b);
+ }
+
+ .galeria .item_5:hover{
+  filter: drop-shadow(5px 5px 10px #e03b7b);
+ }
+
+/* videos */
+.videos{
+  display: flex;
+  flex-wrap: wrap;
+  background: #fdc800;
+  width: 100%;
+  justify-content: space-between;
+  justify-content: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+
+.video_1{  
+  padding: 2em;  
+  margin-top: 10em;
+  }
+
+.video_2{
+  padding: 2em;  
+  margin-top: 10em;
+  }
+
+.video_3{
+  padding: 2em;  
+  margin-top: 1em;
+ }
+
+ .video_4{
+  padding: 2em;  
+  margin-top: 1em;
+ }
+
+ .video_5{
+  padding: 2em;  
+  margin-top: 1em;
+ }
+
+ .video_6{
+  padding: 2em;  
+  margin-top: 1em;
+ }
+
+/* videos_hover */
+.video_1:hover{
+  filter: drop-shadow(5px 5px 10px white);
+}
+
+.video_2:hover{
+  filter: drop-shadow(5px 5px 10px white);
+}
+
+.video_3:hover{
+  filter: drop-shadow(5px 5px 10px white);
+}
+
+.video_4:hover{
+  filter: drop-shadow(5px 5px 10px white);
+}
+
+.video_5:hover{
+  filter: drop-shadow(5px 5px 10px white);
+}
+
+.video_6:hover{
+  filter: drop-shadow(5px 5px 10px white);
+}
+
+/* fotos_inicio */
+.fotos_inicio .item_1_{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3em;
+  width: 100%;
+  justify-content: center;
+  filter: drop-shadow(1px 1px 3px rgb(116, 116, 116));
+   }
+
+.fotos_inicio .item_2_{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    width: 100%;
+    justify-content: center;
+    filter: drop-shadow(1px 1px 3px rgb(116, 116, 116));
+    }
+
+.fotos_inicio .item_3_{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 1em;
+      width: 100%;
+      justify-content: center;
+      filter: drop-shadow(1px 1px 3px rgb(116, 116, 116));
+      }
+
+.padre_fotos{
+  margin-top: 0px;
+  width: 100%;
+  justify-content: center;  
+  display: flex;
+     
+}
+
+/* párrafo_inicio */
+.caja_padre .parrafo{
+  margin: 7em 7em 0em 7em;
+  color: #818181;
+  line-height: 30px;
+}
+
+/* contacto */
+.contacto ul li a{
+  flex-wrap: wrap;
+  display: flex;
+  color: white;
+  font-size: 45px;
+  font-style: normal;
+  justify-content: center;
+  
+}
+
+.contacto{
+  background:#ef98b9;
+  margin-top: 10em;
+  padding: 4em;
+  }
+
+.contacto ul li a:hover{
+  color: #fdc800;
+  font-size: 50px;
+}
+
+/* media queris */
+
+/* ##Dispositivo = Smartphones de 320px a 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+ 
+  /* index */
+.caja_padre_inicio{
+  width: 100%;
+}
+
+.logo{
+  width: 20%;
+}
+
+.swiper{
+  margin-top: 60px;
+  width: 100%;
+ }
+
+ .caja_padre .parrafo{
+   width: 50%;
+   font-size: 12px;
+   margin-top: 17px;
+   padding: 1px;
+   }
+
+   .padre_fotos{
+     width: 100%;
+  }
+
+/* videos */
+.caja_padre_videos{
+  width: 100%;
+}
+
+.caja_padre_videos{
+  width: 100%;
+}
+
+.videos{
+  width: 100%;
+}
+
+/* galeria */
+.galeria{
+padding: 10px 10px 40px 10px;
+
+}
+
+.item_1{
+  width: 100%;
+ }
+
+.item_2{
+  margin-top: 20px;
+}
+
+.item_3{
+  margin-top: 20px;
+}
+
+.item_4{
+  margin-top: 20px;
+}
+
+.item_5{
+  margin-top: 20px;
+}
+
+}
+
+/* ##Dispositivo = Tablets, Ipads (horizontal) 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px)  {
+ 
+/* index */
+.caja_padre .parrafo{
+  margin-top: 30px;
+  }
+
+/* videos */
+.video_2{
+  margin-top: 5px;
+}
+
+.logo{
+  width: 100px;
+}
+/* galeria */
+.galeria{
+  padding: 20px 20px 10px 20px;
+  margin-bottom: 100px;
+  }
+
+.item_2{
+    margin-top: 100px;
+    padding-top: 3em;
+  }
+
+.item_3{
+    margin-top: 100px;
+    padding-top: 6em;
+  }
+  
+.item_4{
+    margin-top: 100px;
+    padding-top: 9em;
+  }
+
+.item_5{
+    margin-top: 100px;
+    padding-top: 9em;
+  }
+  
+}
+
+/* ##Dispositivo = Tablets, Mobiles de 481px a 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+ 
+/* index */
+.logo{
+  width: 20%;
+}
+
+.swiper{
+  margin-top: 50px;
+}
+
+.caja_padre .parrafo{
+  margin-top: 15px;
+}
+
+/* galeria */
+.galeria{
+  padding: 10px 10px 40px 10px;
+  }
+
+.item_2{
+  margin-top: 50px;
+    }
+
+.item_3{
+  margin-top: 50px;
+  }
+
+.item_4{
+ margin-top: 50px;
+  }
+
+.item_5{
+  margin-top: 50px;
+  }
+}

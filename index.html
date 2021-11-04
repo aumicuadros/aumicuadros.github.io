@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio__final__7</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0
+    ,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;
+    1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- caja padre inicio -->
+<div class="caja_padre_inicio">
+
+<!-- Navegador -->
+<header class="cd-auto-hide-header">
+	<div class="logo"><a href="index.html"><img src="imgs/logo.jpg" alt="Logo"></a></div>
+
+	<nav class="cd-primary-nav">
+		<a href="#cd-navigation" class="nav-trigger">
+			<span>
+				<em aria-hidden="true"></em>
+				Menu
+			</span>
+		</a> <!-- .nav-trigger -->
+
+		<ul id="cd-navigation">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="videos.html">Videos</a></li>
+			<li><a href="galeria.html">Galería</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+		</ul>
+	</nav> <!-- .cd-primary-nav -->
+</header> <!-- .cd-auto-hide-header -->
+
+ <!-- Swiper -->
+ <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="imgs/foto_1.jpg" alt="frase"> </div>
+      <div class="swiper-slide"><img src="imgs/foto_2.jpg" alt="montaje cuadro"> </div>
+    
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+ 
+<!-- párrafo -->
+<section class="caja_padre">
+  <article class="parrafo">
+    <p>
+      <strong> aumi cuadros</strong>  es un emprendimiento que nació hace aproximadamente 2 años, fue creado por
+      <i>Mary I. Villarraga C.</i>, diseñadora gráfica, fotógrafa y publicista en proceso.
+      Mary dice que: "este proyecto para mí ha sido una gran sorpresa y una gran oportunidad,
+      a diferencia de otros emprendedores, jamás pensé en crear mi propio emprendimiento, 
+      ni lo planee, todo se me ocurrió sin pensarlo y sin esperarlo la idea fue acogida 
+      y apoyada por muchas personas,sin embargo, emprender no ha sido nada fácil, pero poco
+      a poco se van viendo los resultados". <br>
+
+      <br>En <strong>aumi cuadros</strong> brindamos cuadros personalizados fotográficos, ilustrados, con cartoons y frases. 
+      Además, tenemos variedad de tamaños como: 15x20cm, 20x30cm, 30x40cm, entre otros.
+    </p>
+  </div>
+
+<!-- fotos -->
+  <article class="padre_fotos">
+     <article class="fotos_inicio">
+        <div class="item_1_">
+             <img src="imgs/imagen_19.jpg" alt="cuadro perro ilustrado"></a>
+        </div>
+        <div class="item_2_">
+           <img src="imgs/imagen_17.jpg" alt="cuadro fotos familiares"></a>
+        </div>
+        <div class="item_3_">
+           <img src="imgs/imagen_18.jpg" alt="cuadro foto familiar"></a>
+        </div>
+    </article>
+  </article>
+</section>
+
+
+<!-- Javascript -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        type: "progressbar",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  <!-- fin slider -->
+
+  <!-- .cd-main-content -->
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+
+<!-- contacto -->
+  <footer class="contacto">
+    <ul id="contacto_">
+      <li><a href="https://www.facebook.com/aumicuadros" target="_black">Facebook</a></li>
+      <li><a href="https://www.instagram.com/aumicuadros/?hl=es"  target="_black" >Instagram</a></li>
+   </ul>
+  </footer>
+</div>
+</body>
+</html>
